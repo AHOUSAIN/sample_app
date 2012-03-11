@@ -1,0 +1,38 @@
+require 'rubygems'
+require 'autotest'
+require 'sys/uname'
+
+include Sys
+
+##
+# Autotest::FSEvent
+#
+# == FEATUERS:
+# * Use FSEvent (on Mac OS X 10.5 or higher) instead of filesystem polling
+#
+# == SYNOPSIS:
+# ~/.autotest
+#   require 'autotest/fsevent'
+module Autotest::FSEvent
+
+  GEM_PATH = File.expand_path(File.join(File.dirname(__FILE__), '..', '..')) unless defined?(GEM_PATH)
+
+  ##
+  # Use FSEvent if possible 
+  # Add waiting hook to prevent fallback to polling after ignored files have changed
+  if Uname.sysname == 'Darwin' && Uname.release.to_i >= 9
+    Autotest.add_hook :initialize do
+      class ::Autotest
+        remove_method :wait_for_changes
+        def wait_for_changes
+          hook :waiting
+          begin
+            `cd '#{Dir.pwd}'; #{File.join(GEM_PATH, 'bin', 'fsevent_sleep')} . 2>&1`
+            Kernel.sleep self.sleep
+          end until find_files_to_test
+        end
+      end
+    end
+  end
+
+end
