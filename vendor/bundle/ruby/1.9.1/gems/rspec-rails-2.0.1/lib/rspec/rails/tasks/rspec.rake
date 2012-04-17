@@ -1,5 +1,6 @@
 require 'rspec/core'
 require 'rspec/core/rake_task'
+
 Rake.application.instance_variable_get('@tasks')['default'].prerequisites.delete('test')
 
 spec_prereq = Rails.configuration.generators.options[:rails][:orm] == :active_record ?  "db:test:prepare" : :noop
@@ -23,7 +24,7 @@ namespace :spec do
   RSpec::Core::RakeTask.new(:rcov => spec_prereq) do |t|
     t.rcov = true
     t.pattern = "./spec/**/*_spec.rb"
-    t.rcov_opts = '--exclude /gems/,/Library/,/usr/,lib/tasks,.bundle,config,/lib/rspec/,/lib/rspec-'
+    t.rcov_opts = '--exclude /gems/,/Library/,/usr/,lib/tasks,.bundle,config,/lib/rspec/,/lib/rspec-,spec'
   end
 
   task :statsetup do
@@ -41,9 +42,8 @@ namespace :spec do
     ::CodeStatistics::TEST_TYPES << "Controller specs" if File.exist?('spec/controllers')
     ::CodeStatistics::TEST_TYPES << "Helper specs" if File.exist?('spec/helpers')
     ::CodeStatistics::TEST_TYPES << "Library specs" if File.exist?('spec/lib')
-    ::CodeStatistics::TEST_TYPES << "Mailer specs" if File.exist?('spec/mailer')
+    ::CodeStatistics::TEST_TYPES << "Mailer specs" if File.exist?('spec/mailers')
     ::CodeStatistics::TEST_TYPES << "Routing specs" if File.exist?('spec/routing')
     ::CodeStatistics::TEST_TYPES << "Request specs" if File.exist?('spec/requests')
   end
 end
-
