@@ -1,0 +1,160 @@
+/Users/Afrah/.rvm/rubies/ruby-1.9.2-p290/bin/ruby extconf.rb 
+In file included from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:21:19: error: AE/AE.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:25:35: error: CarbonCore/CarbonCore.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:29:35: error: OSServices/OSServices.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:33:43: error: CoreFoundation/CoreFoundation.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:37:33: error: CFNetwork/CFNetwork.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:41:43: error: LaunchServices/LaunchServices.h: No such file or directory
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:30,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:20:35: error: CoreFoundation/CFBase.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:24:34: error: CoreFoundation/CFURL.h: No such file or directory
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:30,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:51: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:67: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:98: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentCreateWithURL’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:116: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentCopyURL’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:157: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentCreate’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:183: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentGetSchemeName’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:206: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentGetName’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKDocument.h:230: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentGetParent’
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:34,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:20:37: error: CoreFoundation/CFString.h: No such file or directory
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:34,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:54: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKMinTermLength’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:71: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKSubstitutions’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:88: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKStopWords’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:107: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKProximityIndexing’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:127: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKMaximumTerms’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:146: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKTermChars’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:165: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKStartTermChars’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:184: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKEndTermChars’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:207: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘kSKLanguageTypes’
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:38,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:28:41: error: CoreFoundation/CFDictionary.h: No such file or directory
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:38,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:75: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:99: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexDocumentIteratorGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:215: error: expected ‘)’ before ‘inURL’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:256: error: expected ‘)’ before ‘inURL’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:295: error: expected ‘)’ before ‘inData’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:332: error: expected ‘)’ before ‘inData’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:368: error: expected ‘)’ before ‘inData’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:394: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexFlush’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:411: error: expected declaration specifiers or ‘...’ before ‘CFIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:430: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetMaximumBytesBeforeFlush’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:456: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexCompact’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:498: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetAnalysisProperties’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:522: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetDocumentCount’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:543: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:575: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexAddDocumentWithText’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:624: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexAddDocument’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:656: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexRemoveDocument’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:677: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexCopyDocumentProperties’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:698: error: expected declaration specifiers or ‘...’ before ‘SKDocumentRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:699: error: expected declaration specifiers or ‘...’ before ‘CFDictionaryRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:723: error: expected declaration specifiers or ‘...’ before ‘SKDocumentRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:742: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:759: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexCopyDocumentForDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:776: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexRenameDocument’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:794: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexMoveDocument’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:815: error: expected declaration specifiers or ‘...’ before ‘SKDocumentRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:835: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexDocumentIteratorCopyNext’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:853: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetMaximumDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:868: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetDocumentTermCount’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:888: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexCopyTermIDArrayForDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:905: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetDocumentTermFrequency’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:928: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetMaximumTermID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:943: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetTermDocumentCount’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:963: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexCopyDocumentIDArrayForTermID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:980: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexCopyTermStringForTermID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKIndex.h:1000: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKIndexGetTermIDForTermString’
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:42,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:32:35: error: CoreFoundation/CFDate.h: No such file or directory
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:42,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:79: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:90: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchOptions’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:131: error: expected declaration specifiers or ‘...’ before ‘CFStringRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:132: error: expected declaration specifiers or ‘...’ before ‘SKSearchOptions’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:195: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchFindMatches’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:238: error: expected declaration specifiers or ‘...’ before ‘CFIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:239: error: expected declaration specifiers or ‘...’ before ‘SKDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:240: error: expected declaration specifiers or ‘...’ before ‘CFStringRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:241: error: expected declaration specifiers or ‘...’ before ‘SKDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:272: error: expected declaration specifiers or ‘...’ before ‘CFIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:273: error: expected declaration specifiers or ‘...’ before ‘SKDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:274: error: expected declaration specifiers or ‘...’ before ‘SKDocumentRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:305: error: expected declaration specifiers or ‘...’ before ‘CFIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:306: error: expected declaration specifiers or ‘...’ before ‘SKDocumentID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:307: error: expected declaration specifiers or ‘...’ before ‘CFURLRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:336: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchGroupGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:359: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchResultsGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:411: error: expected declaration specifiers or ‘...’ before ‘SKDocumentRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:411: error: ‘CALLBACK_API_C’ declared as function returning a function
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:435: error: expected ‘)’ before ‘inArrayOfInIndexes’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:453: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchGroupCopyIndexes’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:501: error: expected declaration specifiers or ‘...’ before ‘CFStringRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:503: error: expected declaration specifiers or ‘...’ before ‘CFIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:505: error: expected declaration specifiers or ‘...’ before ‘SKSearchResultsFilterCallBack’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:551: error: expected declaration specifiers or ‘...’ before ‘CFArrayRef’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:552: error: expected declaration specifiers or ‘...’ before ‘CFIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:554: error: expected declaration specifiers or ‘...’ before ‘SKSearchResultsFilterCallBack’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:569: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchResultsGetCount’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:618: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchResultsGetInfoInRange’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSearch.h:650: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSearchResultsCopyMatchingTerms’
+In file included from /System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SearchKit.h:46,
+                 from /System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:45,
+                 from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:69: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryGetTypeID’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:97: error: expected ‘)’ before ‘inString’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:117: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryGetSentenceCount’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:137: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryGetParagraphCount’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:160: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryCopySentenceAtIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:185: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryCopyParagraphAtIndex’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:211: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryCopySentenceSummaryString’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:237: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryCopyParagraphSummaryString’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:278: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryGetSentenceSummaryInfo’
+/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKSummary.h:318: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SKSummaryGetParagraphSummaryInfo’
+In file included from fsevent_sleep.c:1:
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:48:31: error: Metadata/Metadata.h: No such file or directory
+/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:49:51: error: DictionaryServices/DictionaryServices.h: No such file or directory
+fsevent_sleep.c:3: error: expected ‘)’ before ‘streamRef’
+fsevent_sleep.c: In function ‘main’:
+fsevent_sleep.c:15: warning: incompatible implicit declaration of built-in function ‘printf’
+fsevent_sleep.c:17: warning: incompatible implicit declaration of built-in function ‘exit’
+fsevent_sleep.c:21: error: ‘CFStringRef’ undeclared (first use in this function)
+fsevent_sleep.c:21: error: (Each undeclared identifier is reported only once
+fsevent_sleep.c:21: error: for each function it appears in.)
+fsevent_sleep.c:21: error: expected ‘;’ before ‘pathToWatch’
+fsevent_sleep.c:22: error: ‘CFArrayRef’ undeclared (first use in this function)
+fsevent_sleep.c:22: error: expected ‘;’ before ‘pathsToWatch’
+fsevent_sleep.c:23: error: ‘NULL’ undeclared (first use in this function)
+fsevent_sleep.c:24: error: ‘FSEventStreamRef’ undeclared (first use in this function)
+fsevent_sleep.c:24: error: expected ‘;’ before ‘stream’
+fsevent_sleep.c:25: error: ‘CFAbsoluteTime’ undeclared (first use in this function)
+fsevent_sleep.c:25: error: expected ‘;’ before ‘latency’
+fsevent_sleep.c:26: error: ‘stream’ undeclared (first use in this function)
+fsevent_sleep.c:27: error: ‘kCFAllocatorDefault’ undeclared (first use in this function)
+fsevent_sleep.c:28: error: ‘callback’ undeclared (first use in this function)
+fsevent_sleep.c:30: error: ‘pathsToWatch’ undeclared (first use in this function)
+fsevent_sleep.c:31: error: ‘kFSEventStreamEventIdSinceNow’ undeclared (first use in this function)
+fsevent_sleep.c:32: error: ‘latency’ undeclared (first use in this function)
+fsevent_sleep.c:33: error: ‘kFSEventStreamCreateFlagNone’ undeclared (first use in this function)
+fsevent_sleep.c:37: error: ‘kCFRunLoopDefaultMode’ undeclared (first use in this function)
+extconf.rb:33:in `<main>': [1;31mCompilation of fsevent_sleep binary failed - see README for assistance[0m (RuntimeError)

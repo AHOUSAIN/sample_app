@@ -1,6 +1,19 @@
+<<<<<<< HEAD
 .DS_Store
 doc/*
 rdoc/*
 coverage/*
 spec/debug.log
 pkg/*
+=======
+.bundle
+db/*.sqlite3*
+log/*.log
+*.log
+/tmp/
+doc/
+*.swp
+*~
+.project
+.DS_Store
+>>>>>>> modeling-users
