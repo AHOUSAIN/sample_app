@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
   end
   def create
     @title = "Sign in"
+    render 'new'
   end
   def destroy
     
