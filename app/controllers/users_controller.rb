@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
-  before_filter :authenticate, :only => [:index,:edit, :update]
+  
+  before_filter :authenticate, :only => [:index,:edit, :update, :destroy]
   before_filter :correct_user, :only => [:edit, :update]
-  before_filter :admin_user,   :only => :destroy
+  before_filter :admin_user,   :only => [:destroy]
   def new
     @user = User.new
     @title = "Sign up"

@@ -15,7 +15,8 @@ describe UsersController do
       describe "for signed-in users" do
 
         before(:each) do
-          @user = test_sign_in(Factory(:user))
+          @user = Factory(:user)
+          test_sign_in(@user)
           second = Factory(:user, :name => "Bob", :email => "another@example.com")
           third  = Factory(:user, :name => "Ben", :email => "another@example.net")
 
@@ -25,6 +26,7 @@ describe UsersController do
                     @users << Factory(:user, :name => Factory.next(:name),
                                              :email => Factory.next(:email))
         end
+        
         it "should have an element for each user" do
                 get :index
                 @users[0..2].each do |user|
